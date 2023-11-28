@@ -1,0 +1,26 @@
+// Laila Esterfane dos Santos Valença
+// Camila Fontes Santos 
+
+1) Em C exemplo o uso do goto prejudica a legibilidade, pois o seu uso pode ser conflitante pois desvia para um lugar e outro aleatoriamente prejudicando a legibilidade do código, mas aumenta a redigibilidade. Quanto aaos conflitos de redigibilidade podemos citar o FORTRAN que é fraco no suporte de abstrações, pois há muitos tipos de dados.
+
+2) Um exemplo de falta de ortogonalidade é que não se usa o ":-" e predicados em haskell como conhecemos em prolog, sendo as duas liguagens declarativas, normalmente se usa guardas. Isso com certeza compromete a facilidade de aprender uma nova linguagem, pois será preciso aprender novas maneiras de fazer a mesma coisa.
+
+3) Quando um programa é feito otimizado para um sistema operacional acaba comprometendo a portabilidade. Em contrapartida quando um programa é portatil normalmente não se tem otimização para sistemas operacionais especificos. Um exemplo disso são jogos que investem mais nos computadores do que nos usuários mobile. Por conta da maior demanda.
+
+4) lexica -> palavras chaves, numeros, simbolos
+   sintatica -> estrutura do codigo, sequencia de tokens, regras gramaticais da liguagem 
+   semantica -> identifica erros com base no contexto onde tudo esta em escrito, leitura linha a linha
+
+Lexica é a verificação se cada palavra existe na linguagem, ou seja na linha um existe a palavra "int" que é reservada e "a" e "b" existem dentro da linguagem, assim como na segunda linha "b" e "=" também existem, na terceira "a", "b", "-" e "2" também são reconhecidas. 
+
+Na parte sintática éfeita a verificação de sequencia de tokens e etrutura do código, na linha um, é feita a verificação se "a" e "b" podem ser int, na linha dois, se "b" pode ser atribuido o numero "5", e na teceira linha "a" pode ser atribuida a "b - 2".
+
+Já na parte semântica verifica se no contexto de de linha a linha existe um erro de compilação. Analisando o cdigo: Na linha um: há abertura de chave, linha dois: declaração de variaveis.Linha tres: atribuição do numero 5 à variável "b", na quarto linha atribuição da variavel "b" - o numero 2, atribindo a variavel "a".Linha cinco: fechamento de chave.
+
+5) Para melhora no gerenciamento de memória, abstração de dados,eficiência de execução, uma semântica mais clara, verificação de erros em tempo de compilação, melhor legibilidade, melhor redigibilidade e melhora na manutenção do código.
+ 
+6)
+
+7)
+
+8)

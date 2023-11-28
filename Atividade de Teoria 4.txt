@@ -1,0 +1,28 @@
+ATIVIDADE 4 - Teórica
+
+Alunas: Camila Fontes Santos e Laila Esterfane dos Santos Valença
+
+
+1- Variável é um componente básico de uma linguagem, é uma célula de memória com algumas distinções, sendo elas primitivas ou não, tendo caracteríticas de definição, nomeclatura, tipo, tempo de vida, escopo e inicialização.
+
+2- Variável Stack Dynamic são variáveis que são alocadas em pilha de memória durante a execução de uma função, por exemplo a declaração estática de uma varivel dentro de uma função, a linguagem automaticamente faz o trabalho com as pilhas por baixo dos panos. Outro exemplo seria em C a declaração na main, pois a main é uma função. Só não seria variáveis Stack Dynamic's as variáveis globais.
+
+3- Explicit seria a alocação de memória feita explicitamente pelo programador como em C o uso de "malloc". Já implicit seria a própria linguagem que faria a alocação dinamica de forma automática, um exemplo seria o uso do new em Java.
+
+4- Escopo é a região onde a variável está vísivel, podendo elas ter escopo global ou local. Já o tempo de vida de um variável se refere ao tempo que ela existe na memória e está válida, o tempo de vida pode variar de acordo como a variável for declarada.
+
+5- A definição de uma função descreve sua interface, comportamento e é uma abstração de suas ações, já a chamada de uma função é uma requisição expressa para que ela execute.
+
+6- Parametro formal seria o parametro da função feito durante a declaração da função, também só chamado de parametro em algumas linguagens, já o real seria o parametro da chamda da função, o chamado também de argumento em algumas linguagens.
+
+7- Seu principal objetivo é declarar sua existência e determinar como a função deve ser usada e chamada, independente de onde ela esteja localizada no código-fonte, especificamente determinar o seu retorno, nomeclatura e parametros. Promovendo assim vantagens ao codificar.
+
+8- Passagem por valor de uma função seria a cópia do valores na chamada da função para a função em si, ou seja, qualquer alteração feita não afeta as variaveis locais da função original. 
+
+9- Para obtenção de eficiência de memória e desempenho, pois economiza memória porque não há cópia de dados envolvida. Flexibilidade também, pois pode manipular partes específicas da matriz dentro da função
+
+10- Registro de ativação é uma estrutura de dados que armazena informações locais específicas de uma função durante sua execução, ele é criado dinamicamente na pilha de memória quando a função é chamada, os registros de ativação são empilhados em uma ordem hierárquica. Utilizamos disso no cotidianamente, variáveis locais em uma função são armazenadas no registro de ativação isso garante que cada função tenha seu próprio espaço isolado para variáveis locais, evitando conflitos de nomes. Além disso, os parâmetros da função são frequentemente passados para a função por meio do registro de ativação, permitindo que a função acesse os valores passados, tembém o endereço de retorno, que indica o local no código de onde a função foi chamada, é armazenado no registro de ativação, também é essencial para lidar com chamadas aninhadas e garante que o controle seja retornado à função chamadora apropriada. Ademais os registros de ativação também são usados para gerenciar a pilha de memória, garantindo que a memória alocada para uma função seja liberada quando a função retorna.
+
+11- Primeiro há a chamada da função logo após o controle do programa é transferido pro iniciio da função que foi chamada, depois o registro de ativação é criado na memória contendo informações sobre a função, depois a função começa a ser executada linha a linha realizando devidamente suas instruções até que chegue no "return" e o controle é transferido de volta para o ponto de chamada da função, depois a a pilha do registro de ativação e desempilhada liberando a memória alocada e programa continua sua execução a partir do ponto de retorno da função e assim exxecutando suas instruções e chamando outras funções conforme necessário, seguindo o mesmo processo de chamada e retorno para cada função.
+
+12- É uma estratégia de avaliação de parâmetros de uma função antes de passá-los como argumentos. Ou seja, os valores dos argumentos são calculados antes da função ser chamada. Exemplo "soma(x + 1, y * 2)", primeiro é feito x+1 e o y*2.

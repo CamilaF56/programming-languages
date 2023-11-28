@@ -1,0 +1,25 @@
+Aluna: Camila Fontes Santos
+
+
+1º)Ada Lovellace foi a primeira pessoa a escrever um algoritmo, que na epoca foi desenvolvido para ser processado na maquina de babbage.
+
+2º)Ela é considerada uma liguagem completa porque aborda os principais conceitos que são usados até hoje na programação, além de também apresentar um alto nível de complexidade em questão de funcionalidade, pois é possível fazer o que a maioria das lingaugens hoje em dia fazem, ou seja, os conceitos da linguagem não eram limitantes.
+
+3º)Linguagens de pseudocodigos são linguagens que podem ser associados ao idioma do ser humano. Ao exemplo o uso de palavras chaves como "if" e "else", trazendo uma legibilidade e redigibilidade meior para o desenvolvedor. Exemplos de liguagens assim: Python, Java, JavaScript, C, C++.
+
+4º)Pois havia um projeto do MIT com o código bem legivel que pode ser considerado de alto nível, porém só era utilizada apenas no MIT. Fortran também teve outro concorrente, o Autocode, porém ela era de baixo nível em comparação com Fortran. Também houveram outras versões do Fortran, mas acabaram servindo de precursoras para o Fortran que ficou mundialmente conhecido.
+
+5º)Pois foi considerada a primeira linguagem de alto nivel a ser compialda, ou seja mudou completamente a visão dos desenvolvedores pela facilidade ao programar, com a alta legibilidade e redigibilidade em comparação com a linguagens conhecidas na época, mostrando assim alta eficiência.
+
+6º)Para melhorar a eficiência da estrutura ao otimiza-la de acordo com o problema a ser resolvido. Para saber qual é a melhor estrutura para se utilizar dependendo do problema. Para resolver problemas com menor custo e para entender o que acontece debaixo dos panos do algoritmo e assim aumentar a compreensão aos conceitos de estruturas e não cometer erros.
+
+7º)Em C existe um grande proplema de confiabilidade e eficiencia que é o gerenciamento de memória inseguro, podendo haver um vazamento de memória se o programador não for cuidadoso, um exemplo são os problemas com o uso inadequado dos ponteiros.
+
+8º)Casos em que os ponteiros são acessados antes de serem inicializados, vazamento de memoria, não atualizar os ponteiros apos realocaçõa de memoria, utilização de ponteiros inválidos.
+
+9º)Não concordo, nem sempre as LP's serão hibridas, um exemplo de liguagem apenas interpretada é python. Pyhton é uma liguagem interpretada. O intepretador interpreta linha a linha. Existem outras lingugens que é apenas compilada como o caso de C e outras que são hibridas como é o caso de Java.
+
+10º)O que define os tipos primitivos de uma liguagem é que eles não podem ser decompostos e eles vem pronto no padrão da linguagem. Exemplo em C o char é um tipo primitivo, mas string não, pois é um array de char. Já em Python String e Char são primitivos, pois já vem de padrão na linguagem e não podem ser decompostos.
+
+11º)Em C as matrizes e vetores armazenam elementos em sequencia na memoria do computador e o acesso é feito atraves do indice que deseja acessar. A composição nessa linguagem de programação é estatica, pois na declaração se coloca o tamanho da estrutura, ou seja é fixo esse tamanho. 
+

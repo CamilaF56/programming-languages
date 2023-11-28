@@ -1,0 +1,17 @@
+brinquedo(boneca).
+brinquedo(ursinho).
+
+amigo(laila).
+amigo(vinicius).
+
+brinca(marlysson, vinicius).
+brinca(ana, laila).
+brinca(ana, boneca).
+brinca(layra, ursinho).
+brinca(layra, laila).
+brinca(layra, boneca).
+
+gosta(ana, X) :- brinquedo(X), brinca(ana, X). % ana gosta do do que ana brinca
+gosta(marlysson, X) :- brinca(ana, X). % marlysson gosta só do que ana brinca
+gosta(ana, brinca(marlysson)). % ana só gsota do que marlysson brinca
+gosta(layra, X) :-  brinquedo(X),amigo(X), brinca(layra, X).

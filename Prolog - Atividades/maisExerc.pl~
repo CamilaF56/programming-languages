@@ -1,0 +1,13 @@
+professor(maily). % fato ou lei, professor->predicado e maily->constante, formula atomica indivisivel
+professor(maria). % fato ou lei, professor->predicado e maria->constante, formula atomica indivisivel
+
+ensina(maily, prog1). % fato ou lei, ensina->predicado, maily e prog1 ->constantes, formula atomica indivisivel
+ensina(maria, calc1). % fato ou lei, ensina->predicado, maria e calc1 ->constantes, formula atomica indivisivel
+
+disciplina(calc1). % fato ou lei, disciplina->predicado e calc1->constante, formula atomica indivisivel
+disciplina(prog1). % fato ou lei, disciplina->predicado e prog1->constante, formula atomica indivisivel
+
+ensinaa(X, computação) :- professor(X), ensina(X, prog1). % regra
+ensinaa(X, matematica) :- professor(X), ensina(X, calc1). % regra
+
+simpatico(X) :- professor(X), ensinaa(X, computação). % regra

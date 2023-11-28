@@ -1,0 +1,46 @@
+Atividade 3 - Teoria
+Camila Fontes Santos
+
+1º)Declaração explicita de variáveis é a declaração aonde o desenvolvedor especifica o tipo da variável na hora da declaração. Duas linguagens em que é preciso fazer isso: C e Java. Em relação à legibilidade e redigibilidade é possível perceber que o uso de declaração explicita aumenta a legibilidade, pois na hora de ler o código tudo fica bem mais especificado na mente, já a redigibilidade diminui, pois a escrita se torna menos verbosa na hora de escrever o código.
+
+2º)
+Em Python e Ruby:
+number = 54
+text = "Olá mundo!"
+
+Em Ruby e em Python ocorre tipagem dinâmica, ou seja, o interpretador verifica automaticamente o tipo da variável e automaticamente faz a declaração de maneira implícita sem haver a necessidade do desenvolvedor declarar explicitamente.
+
+3º)As vantagens de da utilização de uma linguagem de tipagem estática é a manutenção ser mais fácil, pois o código ser torna mais claro, melhorar também o desempenho, pois o compilador não irá ter o tanto de trabalho em comparação com a tipagem dinâmica, também a segurança é uma vantagem, pois os erros aparecem em tempo de compilação. Há limitações também presentes, pois o código se torna-rá mais verboso, terá maior rigidez, pois as variáveis estão vinculas a um tipo específico tornando mais difícil de manipular certas situações de mudanças entre elas.
+
+4º)A tipagem implícita significa que pela atribuição que lhe foi dada o interpretador/compilador irá verificar o tipo do dado e irá fazer a tipagem automaticamente. Já a explicita o desenvolvedor que faz a especificação do tipo na hora da declaração. Linguagens de tipagem dinâmica faz o trabalho de mudar os tipos de variáveis automaticamente em tempo de execução se ao exemplo o desenvolvedor colocar: number = 23 e depois number = "hello". Certamente na tipagem dinâmica isso pode ocorrer, porém, em tipagem estática não, se foi declarado com int essa variável só pode ser inteiro e não mudar o seu tipo, pois a verificação de tipos ocorre em tempo de compilação, ou seja, não pode ser alterado posteriormente durante o código.
+
+5º)Tipagem mista ou hibrida, é aquela que combina elementos de tipagem estática e dinâmica, ou seja, há situações em que a verificação de tipos ocorre em tempo de execução e outras situações que ocorre em tempo de compilação. Há existência dessas linguagens é para os programadores terem maior flexibilidade na hora de codificar algo. Exemplo de linguagens hibridas: TypeScript, Lua, Golang, Ruby, Swift e Kotlin
+
+6º)Compatibilidade de tipos são leis que especificam os tipos de operando aceitos por cada um dos operandos e identifica os possíveis erros de tipo da linguagem, são leis simples e rígidas para tipos primitivos, em relação a tipos estruturados são muito mais complicadas e a coerção entre estes tipos é rara. Ou seja, nessa situação a questão passa a ser a equivalência de tipos e não a compatibilidade. A equivalência de tipos se refere a igualdade estrita entre dois tipos em termos de estrutura e semântica. A equivalência de tipos pode ser mais importante ao lidar com tipos estruturados ou definidos pelo usuário.
+
+7º)A equivalência de estrutural se refere a estrutura do elemento, se tiverem os mesmos campos, membros, ou seja, trata-se da estrutura em si, não importando o nome dos elementos, verifica apenas as estruturas se são iguais estruturalmente e semanticamente.
+
+8º)A avaliação curto-circuito serve para o código ter menor custo dependendo da condição. Ele é usado com && ou ||. O efeito dele é fazer apenas a primeira verificação e já ter a resposta. Ou seja, deixa o código bem mais eficiente, porém só funcionará se o programador souber usá-lo, pois é preciso colocar as condições na ordem correta para funcionar a lógica. Dessa forma, o programador pode otimizar o código e deixar ele menos custoso. Problemas nas linguagens por não ter essa avaliação é que será necessário um código maior para evitar exceções que poderiam ser já evitadas com o uso da avaliação curto-circuito.
+
+9º)A diferença é que quando a atribuição é apenas considerada comando, ela não pode ser usada em situações de condição, apenas em situações de atribuição e atualizações de valores. Já as que são consideradas como expressão podem ser usadas na hora de escrever uma condição e é possível usar o valor resultante da atribuição em cálculos ou em contextos que se espera uma expressão.
+
+10º)
+#include <stdio.h>
+
+int main() {
+    int condicao1 = 0;
+    int condicao2 = 1;
+
+    int resultado = (condicao1 || (condicao2 = 0));
+    printf("Resultado: %d\n", resultado);
+    printf("condicao2: %d\n", condicao2);
+
+    return 0;
+}
+
+Neste exemplo o curto-circuito serviu para apenas necessitar de verificar a condição1, pois ela é verdadeira, sendo assim não verificaria o resto da condição. Porém, o efeito colateral é que a segunda condição é uma atualização de variavel, ou seja mesmo assim ela ocorre, sendo assim um efeito colateral.
+
+11º)
+Na primeira linha o dado 3 é atribuído a n. Ou seja: n = 3.
+Na segunda Linha n é atualizado para n-1 esse valor é somado + 1 e atribuído a variável a. Ou seja: n = 2 e a = 3.
+Na terceira linha o valor de n é incrementado a 5 e o valor de a é atualizado ao valor de n. Ou seja: n = 7 e a = 7.   

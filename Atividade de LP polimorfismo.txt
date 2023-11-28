@@ -1,0 +1,70 @@
+Camila Fontes Santos
+
+1-
+A classificação de Cardelli e Wegner identifica quatro categorias de polimorfismo: paramétrico, inclusivo, sobrecarregado e coercitivo.
+
+Polimorfismo Paramétrico:
+Polimorfismo ocorre quando funções ou classes podem ser configuradas com tipos.
+Também é conhecido como polimorfismo de tipo genérico.
+
+Polimorfismo de Inclusão:
+Polimorfismo acontece quando classes derivadas podem ser tratadas como suas classes base.
+Também é denominado polimorfismo de subtipo.
+
+Polimorfismo por Sobrecarga:
+Polimorfismo ocorre quando duas ou mais funções ou métodos têm o mesmo nome, mas diferentes parâmetros.
+Também é chamado de polimorfismo de sobrecarga.
+
+Polimorfismo por Coerção:
+Polimorfismo ocorre quando valores de um tipo são automaticamente convertidos para outro tipo.
+
+Polimorfismo Paramétrico é exemplificado pelo uso de tipos genéricos.
+Polimorfismo de Inclusão ocorre quando objetos de subclasses podem ser tratados como objetos da classe base.
+Polimorfismo por Sobrecarga é quando múltiplas funções têm o mesmo nome, mas parâmetros diferentes.
+Polimorfismo por Coerção envolve a conversão automática de tipos.
+
+3-
+O polimorfismo é um conceito na programação orientada a objetos que se refere à habilidade de objetos de diferentes classes responderem a chamadas de métodos de maneiras distintas, dependendo de suas próprias implementações. Isso permite a escrita de código de forma mais genérica, com base em interfaces comuns, possibilitando que diferentes objetos se comportem de maneira específica, de acordo com suas próprias classes.
+
+4-
+A diferença entre polimorfismo ad-hoc e polimorfismo universal está relacionada ao escopo e à flexibilidade da aplicação do polimorfismo:
+
+Polimorfismo Ad-hoc (ou sobrecarga):
+Também conhecido como sobrecarga.
+Refere-se à capacidade de funções ou métodos com o mesmo nome, mas diferentes parâmetros, serem chamados com base nos argumentos passados.
+A resolução ocorre em tempo de compilação.
+É mais específico e limitado, aplicando-se apenas a funções ou métodos específicos com assinaturas diferentes.
+
+Polimorfismo Universal (ou de inclusão):
+Também chamado de polimorfismo de subtipo.
+Refere-se à habilidade de objetos de classes derivadas serem tratados como objetos de suas classes base.
+A resolução ocorre em tempo de execução, permitindo que objetos respondam a chamadas de métodos de acordo com suas próprias implementações.
+É mais genérico e abrange todas as classes relacionadas, proporcionando maior flexibilidade e reutilização de código.
+
+5-
+Coerção Implícita (ou Coerção Automática):
+É a conversão que ocorre automaticamente pelo compilador ou interpretador.
+Normalmente, é usada para promover a compatibilidade de tipos em expressões.
+Pode ser conveniente, mas pode levar a resultados inesperados se não for usada com cuidado.
+Exemplo: Conversão de inteiros para números de ponto flutuante, promoção de tipos menores para tipos maiores.
+
+Coerção Explícita (ou Coerção Manual):
+É a conversão realizada explicitamente pelo programador, usando operadores ou funções de conversão.
+Oferece maior controle sobre a conversão de tipos.
+É mais seguro, pois o programador tem controle direto sobre as conversões e pode lidar com possíveis erros.
+Exemplo: Uso de cast em C/C++, funções como parseInt() em Java.
+
+6-
+Sobrecarga Dependente do Contexto (Contextual Overloading):
+Nesse tipo de sobrecarga, a escolha da função ou método a ser chamado é determinada pelo contexto em que a chamada é feita.
+A decisão é tomada com base nos tipos dos argumentos no momento da chamada.
+Isso é comum em linguagens que suportam tipos genéricos ou que possuem sistemas de tipos avançados, como C++ com templates ou C# com generics.
+
+Sobrecarga Independente do Contexto (Ad-hoc Overloading):
+Nesse tipo de sobrecarga, a escolha da função ou método a ser chamado é determinada apenas pela lista de argumentos passada na chamada.
+A decisão é tomada em tempo de compilação com base nas assinaturas das funções ou métodos disponíveis.
+Isso é mais comum em linguagens como C++, Java e C#, onde o compilador seleciona a função apropriada com base na assinatura da função e nos tipos dos argumentos.
+Em Java, a sobrecarga é principalmente do tipo "Sobrecarga Independente do Contexto".
+
+7-
+Polimorfismo paramétrico. Isso permite que funções sejam definidas de maneira genérica, com tipos de parâmetros que não são especificados, tornando-as altamente reutilizáveis.
